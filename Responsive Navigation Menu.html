@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>Page Title</title>
+        <meta name="viewport" content="width=device-width,initial-scale=1.0">
+        <style>
+            
+        .menu {
+    background-color:cadetblue;
+    display:flex;
+    justify-content:flex-end;
+}
+
+.menu a{
+    text-decoration:none;
+    padding:20px;
+    color:white;
+
+}
+
+.menu a:hover{
+    background-color:green;
+}
+@media screen and (max-width:600px){
+    
+   .menu{
+       padding:10px;
+       flex-direction:column;
+   }
+  . menu a{
+      background-color:indigo;
+      margin:10px 0;
+      text-align:center;
+      border-radius:10px;
+      
+  }
+}    
+            
+            
+            
+            
+        </style>
+    </head>
+    <body>
+        <div class="menu">
+            <a href="#">Home</a>
+            <a href="#">Tutorial</a>
+            <a href="#">About</a>
+            <a href="#">Contact</a>
+        </div>
+    </body>
+</html>
